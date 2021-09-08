@@ -7,6 +7,13 @@ import urllib.request
 import sys
 import argparse
 import time
+try:
+    os.system("clear")
+except ImportError:
+    print("error : ")
+except KeyboardInterrupt:
+    print("[!] Exiting Ravana")
+    sys.exit()
 #some colour code for using-----------------------
 r ='\033[31;1m'
 g ="\033[32;1m"
